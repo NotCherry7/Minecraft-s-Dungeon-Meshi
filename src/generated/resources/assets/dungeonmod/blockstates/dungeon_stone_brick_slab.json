@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeonmod:block/dungeon_stone_brick_slab"
+    },
+    "type=double": {
+      "model": "dungeonmod:block/dungeon_stone_bricks"
+    },
+    "type=top": {
+      "model": "dungeonmod:block/dungeon_stone_brick_slab_top"
+    }
+  }
+}

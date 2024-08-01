@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dungeonmod:block/cobbled_dungeon_stone"
+    }
+  }
+}

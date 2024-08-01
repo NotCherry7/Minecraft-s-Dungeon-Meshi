@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dungeonmod:block/polished_dungeon_stone",
+    "side": "dungeonmod:block/polished_dungeon_stone",
+    "top": "dungeonmod:block/polished_dungeon_stone"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "carvers": {},
+  "downfall": 0.0,
+  "effects": {
+    "fog_color": 4095,
+    "foliage_color": 4095,
+    "grass_color": 4095,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "sky_color": 4095,
+    "water_color": 4095,
+    "water_fog_color": 4095
+  },
+  "features": [],
+  "has_precipitation": false,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "dungeonmod:huge_scorpion",
+        "maxCount": 5,
+        "minCount": 3,
+        "weight": 2
+      },
+      {
+        "type": "dungeonmod:mandrake",
+        "maxCount": 5,
+        "minCount": 3,
+        "weight": 2
+      },
+      {
+        "type": "dungeonmod:walking_mushroom",
+        "maxCount": 5,
+        "minCount": 3,
+        "weight": 2
+      }
+    ],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.0
+}

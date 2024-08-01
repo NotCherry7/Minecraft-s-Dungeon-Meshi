@@ -1,0 +1,77 @@
+{
+  "item.dungeonmod.fire_shard": "Fire Shard",
+  "item.dungeonmod.mandrake": "Mandrake",
+  "item.dungeonmod.mandrake_head": "Mandrake Head",
+  "item.dungeonmod.mandrake_spawn_egg": "Mandrake Spawn Egg",
+  "item.dungeonmod.walking_mushroom_spawn_egg": "Walking Mushroom Spawn Egg",
+  "item.dungeonmod.huge_scorpion_spawn_egg": "Huge Scorpion Spawn Egg",
+  "item.dungeonmod.huge_scorpion": "Huge Scorpion",
+
+  "entity.dungeonmod.mandrake": "Mandrake",
+  "entity.dungeonmod.walking_mushroom": "Walking Mushroom",
+  "entity.dungeonmod.huge_scorpion": "Huge Scorpion",
+
+  "item.dungeonmod.walking_mushroom_foot": "Walking Mushroom Foot",
+  "item.dungeonmod.walking_mushroom_chunk": "Walking Mushroom Chunk",
+
+  "item.dungeonmod.huge_scorpion_head": "Huge Scorpion Head",
+  "item.dungeonmod.huge_scorpion_body": "Huge Scorpion Body",
+  "item.dungeonmod.huge_scorpion_claw": "Huge Scorpion Claw",
+  "item.dungeonmod.huge_scorpion_tail": "Huge Scorpion Tail",
+  "item.dungeonmod.huge_scorpion_barb": "Huge Scorpion Barb",
+  "item.dungeonmod.huge_scorpion_leg": "Huge Scorpion Leg",
+
+  "sounds.dungeonmod.mandrake_ambient": "Mandrake Ambient",
+  "sounds.dungeonmod.mandrake_scream": "Mandrake Screams",
+  "sounds.dungeonmod.mandrake_hurt": "Mandrake Screams",
+  "sounds.dungeonmod.mandrake_death": "Mandrake Dies",
+
+  "effect.dungeonmod.stun_effect": "Stun",
+  "item.minecraft.potion.effect.stun_potion": "Stun Potion",
+  "item.minecraft.splash_potion.effect.stun_potion": "Splash Potion of Stun",
+  "item.minecraft.lingering_potion.effect.stun_potion": "Lingering Potion of Stun",
+  "item.minecraft.tipped_arrow.effect.stun_potion": "Arrow of Stun",
+
+  "effect.dungeonmod.mana_sickness_effect": "Mana Sickness",
+  "item.minecraft.potion.effect.mana_sickness_potion": "Mana Sickness Potion",
+  "item.minecraft.splash_potion.effect.mana_sickness_potion": "Splash Potion of Mana Sickness",
+  "item.minecraft.lingering_potion.effect.mana_sickness_potion": "Lingering Potion of Mana Sickness",
+  "item.minecraft.tipped_arrow.effect.mana_sickness_potion": "Arrow of Mana Sickness",
+
+  "block.dungeonmod.cooking_pot": "Cooking Pot",
+
+  "block.dungeonmod.dungeon_stone": "Dungeon Stone",
+  "block.dungeonmod.cobbled_dungeon_stone": "Cobbled Dungeon Stone",
+  "block.dungeonmod.dungeon_stone_tiles": "Dungeon Stone Tiles",
+  "block.dungeonmod.cobbled_dungeon_stone_stairs": "Cobbled Dungeon Stone Stairs",
+  "block.dungeonmod.dungeon_stone_tile_slab": "Dungeon Stone Tile Slab",
+  "block.dungeonmod.cobbled_dungeon_stone_slab": "Cobbled Dungeon Stone Slab",
+  "block.dungeonmod.cobbled_dungeon_stone_wall": "Cobbled Dungeon Stone Wall",
+  "block.dungeonmod.dungeon_stone_tile_stairs": "Dungeon Stone Tile Stairs",
+  "block.dungeonmod.dungeon_stone_tile_wall": "Dungeon Stone Tile Wall",
+  "block.dungeonmod.cracked_dungeon_stone_tiles": "Cracked Dungeon Stone Tiles",
+  "block.dungeonmod.dungeon_stone_bricks": "Dungeon Stone Bricks",
+  "block.dungeonmod.dungeon_stone_brick_slab": "Dungeon Stone Brick Slab",
+  "block.dungeonmod.dungeon_stone_brick_stairs": "Dungeon Stone Brick Stairs",
+  "block.dungeonmod.dungeon_stone_brick_wall": "Dungeon Stone Brick Wall",
+  "block.dungeonmod.cracked_dungeon_stone_bricks": "Cracked Dungeon Stone Bricks",
+  "block.dungeonmod.polished_dungeon_stone": "Polished Dungeon Stone",
+  "block.dungeonmod.polished_dungeon_stone_slab": "Polished Dungeon Stone Slab",
+  "block.dungeonmod.polished_dungeon_stone_stairs": "Polished Dungeon Stone Stairs",
+  "block.dungeonmod.polished_dungeon_stone_wall": "Polished Dungeon Stone Wall",
+  "block.dungeonmod.chiseled_dungeon_stone": "Chiseled Dungeon Stone",
+
+  "death.attack.mandrake": "%1$s was overwhelmed by a Mandrake's scream",
+  "death.attack.mandrake.player": "%1$s was overwhelmed by a Mandrake's scream while fighting %2$s",
+
+  "death.attack.huge_scorpion.player": "%1$s was clawed to death while fighting %2$s",
+  "death.attack.huge_scorpion": "%1$s was clawed to death",
+
+  "creativetab.dungeon_tab": "Dungeon Mod Items",
+
+  "key.category.dungeonmod.dungeon": "Dungeon Mod",
+  "key.dungeonmod.consume_mana": "Consume Mana",
+
+  "message.dungeonmod.consume_mana": "Drinking Water",
+  "message.dungeonmod.no_mana": "No mana"
+}

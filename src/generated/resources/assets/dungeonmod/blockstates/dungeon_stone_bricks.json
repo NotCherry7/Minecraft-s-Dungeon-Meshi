@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dungeonmod:block/dungeon_stone_bricks"
+    }
+  }
+}

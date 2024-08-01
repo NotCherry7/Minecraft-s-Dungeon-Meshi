@@ -1,0 +1,29 @@
+{
+  "type": "dungeonmod:cooking_pot",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat",
+      "count": 1
+    },
+    {
+      "item": "minecraft:egg",
+      "count": 1
+    },
+    {
+      "item": "minecraft:sugar",
+      "count": 1
+    },
+    {
+      "item": "minecraft:diamond",
+      "count": 1
+    },
+    {
+      "item": "minecraft:coal",
+      "count": 1
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "minecraft:cake"
+  }
+}

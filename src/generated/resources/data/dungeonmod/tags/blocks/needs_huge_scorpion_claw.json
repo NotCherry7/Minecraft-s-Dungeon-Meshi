@@ -1,0 +1,24 @@
+{
+  "values": [
+    "dungeonmod:dungeon_stone",
+    "dungeonmod:cobbled_dungeon_stone",
+    "dungeonmod:cobbled_dungeon_stone_slab",
+    "dungeonmod:cobbled_dungeon_stone_stairs",
+    "dungeonmod:cobbled_dungeon_stone_wall",
+    "dungeonmod:dungeon_stone_tiles",
+    "dungeonmod:dungeon_stone_tile_slab",
+    "dungeonmod:dungeon_stone_tile_stairs",
+    "dungeonmod:dungeon_stone_tile_wall",
+    "dungeonmod:cracked_dungeon_stone_tiles",
+    "dungeonmod:dungeon_stone_bricks",
+    "dungeonmod:dungeon_stone_brick_slab",
+    "dungeonmod:dungeon_stone_brick_stairs",
+    "dungeonmod:dungeon_stone_brick_wall",
+    "dungeonmod:cracked_dungeon_stone_bricks",
+    "dungeonmod:polished_dungeon_stone",
+    "dungeonmod:polished_dungeon_stone_slab",
+    "dungeonmod:polished_dungeon_stone_stairs",
+    "dungeonmod:polished_dungeon_stone_wall",
+    "dungeonmod:chiseled_dungeon_stone"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dungeonmod:block/polished_dungeon_stone_slab"
+    },
+    "type=double": {
+      "model": "dungeonmod:block/polished_dungeon_stone"
+    },
+    "type=top": {
+      "model": "dungeonmod:block/polished_dungeon_stone_slab_top"
+    }
+  }
+}

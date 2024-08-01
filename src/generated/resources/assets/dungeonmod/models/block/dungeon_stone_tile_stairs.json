@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "dungeonmod:block/dungeon_stone_tiles",
+    "side": "dungeonmod:block/dungeon_stone_tiles",
+    "top": "dungeonmod:block/dungeon_stone_tiles"
+  }
+}

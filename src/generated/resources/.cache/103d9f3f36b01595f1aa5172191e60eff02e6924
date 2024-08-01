@@ -1,0 +1,5 @@
+// 1.20.1	2024-07-29T17:54:39.5349899	Registries
+2db2756d2663035254803e24c36e840e5232e410 data/dungeonmod/dimension/dungeonworld.json
+4705bebccd0c04d14a3a356373a075b8a6deed52 data/dungeonmod/dimension_type/dungeonworld_type.json
+5283d4f6deb172508cde2299c34217d0f81ddb5f data/dungeonmod/worldgen/biome/dungeon_biome.json
+77426cfaca1a758f32affe920b89fc7d0f7ee189 data/dungeonmod/worldgen/noise_settings/void_noise_settings.json

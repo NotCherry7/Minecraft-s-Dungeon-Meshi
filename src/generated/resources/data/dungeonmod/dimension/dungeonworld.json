@@ -1,0 +1,11 @@
+{
+  "type": "dungeonmod:dungeonworld_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "dungeonmod:dungeon_biome"
+    },
+    "settings": "dungeonmod:void_noise_settings"
+  }
+}

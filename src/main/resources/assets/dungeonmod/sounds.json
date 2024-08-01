@@ -1,0 +1,15 @@
+{
+  "mandrake_scream" : {
+    "subtitles": "sounds.dungeonmod.mandrake_scream",
+    "sounds": [
+      "dungeonmod:mandrake/mandrake_scream",
+      "dungeonmod:mandrake/mandrake_scream_3"
+    ]
+  },
+  "walking_mushroom_squish" : {
+    "subtitles": "sounds.dungeonmod.walking_mushroom_squish",
+    "sounds": [
+      "dungeonmod:walking_mushroom/walking_mushroom_squish"
+    ]
+  }
+}
