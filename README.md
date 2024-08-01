@@ -1,2 +1,2 @@
-# Minecraft-s-Dungeon-Meshii
+# Minecraft-s-Dungeon-Meshi
 This world is bigger than you think...
