@@ -59,6 +59,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockWithItem(ModBlocks.COOKING_POT.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/cooking_pot")));
+
+        simpleBlockWithItem(ModBlocks.PORTAL_1.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_1")));
+        simpleBlockWithItem(ModBlocks.PORTAL_2.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_2")));
+        simpleBlockWithItem(ModBlocks.PORTAL_3.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_3")));
+        simpleBlockWithItem(ModBlocks.PORTAL_4.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_4")));
+        simpleBlockWithItem(ModBlocks.PORTAL_5.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_5")));
+        simpleBlockWithItem(ModBlocks.PORTAL_6.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_6")));
+        simpleBlockWithItem(ModBlocks.PORTAL_7.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/portal_7")));
     }
 
     private void blockItem(RegistryObject<Block> blockRegistryObject) {

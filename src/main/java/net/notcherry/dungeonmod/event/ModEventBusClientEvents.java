@@ -3,15 +3,20 @@ package net.notcherry.dungeonmod.event;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.entity.player.Player;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.client.event.InputEvent;
-import net.minecraftforge.client.event.RegisterGuiOverlaysEvent;
-import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
+import net.minecraftforge.client.event.*;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.notcherry.dungeonmod.DungeonMod;
 import net.notcherry.dungeonmod.block.entity.ModBlockEntities;
 import net.notcherry.dungeonmod.block.entity.renderer.CookingPotBlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal1BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal2BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal3BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal4BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal5BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal6BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal7BlockEntityRenderer;
+import net.notcherry.dungeonmod.block.entity.renderer.PortalBlockEntityRenderer;
 import net.notcherry.dungeonmod.client.ManaHudOverlay;
 import net.notcherry.dungeonmod.client.overlays.SpellWheelOverlay;
 import net.notcherry.dungeonmod.entity.client.*;
@@ -39,6 +44,14 @@ public class ModEventBusClientEvents {
     @SubscribeEvent
     public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.COOKING_POT_BE.get(), CookingPotBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_BLOCK_BE.get(), PortalBlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_1_BE.get(), Portal1BlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_2_BE.get(), Portal2BlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_3_BE.get(), Portal3BlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_4_BE.get(), Portal4BlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_5_BE.get(), Portal5BlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_6_BE.get(), Portal6BlockEntityRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_7_BE.get(), Portal7BlockEntityRenderer::new);
     }
 
     @Mod.EventBusSubscriber(modid = DungeonMod.MOD_ID, value = Dist.CLIENT)

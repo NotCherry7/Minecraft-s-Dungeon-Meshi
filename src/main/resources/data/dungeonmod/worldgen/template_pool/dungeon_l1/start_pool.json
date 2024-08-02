@@ -14,7 +14,7 @@
     {
 
       // How likely out of all the element for this one to be chosen.
-      "weight": 3,
+      "weight": 2,
       "element": {
 
         // The Identifier of the nbt file itself of the structure piece.
@@ -31,16 +31,16 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 4,
       "element": {
-        "location": "dungeonmod:cross_way_arch_1",
+        "location": "dungeonmod:cross_way_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
       }
     },
     {
-      "weight": 3,
+      "weight": 5,
       "element": {
         "location": "dungeonmod:low_grave_room_1",
         "processors": "minecraft:empty",

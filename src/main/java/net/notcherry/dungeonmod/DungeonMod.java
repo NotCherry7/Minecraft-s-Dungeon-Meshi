@@ -8,6 +8,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
+import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -78,10 +79,12 @@ public class DungeonMod {
 
         modEventBus.addListener(this::commonSetup);
 
+
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
     }
+
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         event.enqueueWork(() -> {
@@ -111,6 +114,7 @@ public class DungeonMod {
             EntityRenderers.register(ModEntities.HUGE_SCORPION.get(), HugeScorpionRenderer::new);
             EntityRenderers.register(ModEntities.GOLEM.get(), GolemRenderer::new);
             MinecraftForge.EVENT_BUS.register(SpellWheelOverlay.instance);
+
 
             MenuScreens.register(ModMenuTypes.COOKING_POT_MENU.get(), CookingPotScreen::new);
         }

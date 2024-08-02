@@ -10,6 +10,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.StructureManager;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.entity.BeaconBlockEntity;
 import net.minecraft.world.level.dimension.DimensionType;
 import net.minecraft.world.level.dimension.LevelStem;
 import net.minecraft.world.level.levelgen.structure.Structure;
@@ -61,6 +62,7 @@ public class ModTeleporter implements ITeleporter {
     }
 
     private BlockPos findBarrierLocation(ServerLevel world, BlockPos center) {
+
         int radius = 10; // Search radius around (0, 0)
         int yRadius = 100; // Search radius around (0, 0)
 

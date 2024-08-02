@@ -38,7 +38,16 @@
   "item.minecraft.lingering_potion.effect.mana_sickness_potion": "Lingering Potion of Mana Sickness",
   "item.minecraft.tipped_arrow.effect.mana_sickness_potion": "Arrow of Mana Sickness",
 
+  "item.dungeonmod.magic_wand": "Magic Wand",
   "block.dungeonmod.cooking_pot": "Cooking Pot",
+
+  "block.dungeonmod.portal_1": "Portal 1",
+  "block.dungeonmod.portal_2": "Portal 2",
+  "block.dungeonmod.portal_3": "Portal 3",
+  "block.dungeonmod.portal_4": "Portal 4",
+  "block.dungeonmod.portal_5": "Portal 5",
+  "block.dungeonmod.portal_6": "Portal 6",
+  "block.dungeonmod.portal_7": "Portal 7",
 
   "block.dungeonmod.dungeon_stone": "Dungeon Stone",
   "block.dungeonmod.cobbled_dungeon_stone": "Cobbled Dungeon Stone",

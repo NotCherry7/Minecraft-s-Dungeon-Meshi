@@ -8,7 +8,7 @@
     {
       "weight": 2,
       "element": {
-        "location": "dungeonmod:low_grave_room_0_1_0_1",
+        "location": "dungeonmod:low_grave_room__1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -17,7 +17,7 @@
     {
       "weight": 1,
       "element": {
-        "location": "dungeonmod:high_grave_room_0_1_1_1",
+        "location": "dungeonmod:high_grave_room_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"
@@ -26,7 +26,16 @@
     {
       "weight": 4,
       "element": {
-        "location": "dungeonmod:cross_way_arch_0_1_0_1",
+        "location": "dungeonmod:cross_way_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "dungeonmod:fountain_grave_room_1",
         "processors": "minecraft:empty",
         "projection": "rigid",
         "element_type": "minecraft:single_pool_element"

@@ -169,4 +169,11 @@ public class HugeScorpionEntity extends Animal {
     public boolean isFood(ItemStack pStack) {
         return pStack.is(Items.ENDER_EYE);
     }
+
+//    @Override
+//    protected boolean shouldDespawnInPeaceful() {
+//        return true;
+//    }
+
+
 }

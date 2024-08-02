@@ -22,7 +22,7 @@ public class HugeScorpionRenderer extends MobRenderer<HugeScorpionEntity, HugeSc
     @Override
     public void render(HugeScorpionEntity pEntity, float pEntityYaw, float pPartialTicks, PoseStack poseStack,
                        MultiBufferSource pBuffer, int pPackedLight) {
-        if(pEntity.isBaby()) {
+        if (pEntity.isBaby()) {
             poseStack.scale(0.6f, 0.6f, 0.6f);
         }
 

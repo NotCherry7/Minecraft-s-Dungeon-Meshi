@@ -41,6 +41,13 @@ public class ModCreativeModTabs {
 
 // BLOCKS
                         pOutput.accept(ModBlocks.COOKING_POT.get());
+                        pOutput.accept(ModBlocks.PORTAL_1.get());
+                        pOutput.accept(ModBlocks.PORTAL_2.get());
+                        pOutput.accept(ModBlocks.PORTAL_3.get());
+                        pOutput.accept(ModBlocks.PORTAL_4.get());
+                        pOutput.accept(ModBlocks.PORTAL_5.get());
+                        pOutput.accept(ModBlocks.PORTAL_6.get());
+                        pOutput.accept(ModBlocks.PORTAL_7.get());
                         pOutput.accept(ModBlocks.DUNGEON_STONE.get());
                         pOutput.accept(ModBlocks.COBBLED_DUNGEON_STONE.get());
                         pOutput.accept(ModBlocks.COBBLED_DUNGEON_STONE_SLAB.get());

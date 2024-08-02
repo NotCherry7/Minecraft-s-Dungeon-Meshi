@@ -5,6 +5,8 @@ import net.notcherry.dungeonmod.DungeonMod;
 import net.notcherry.dungeonmod.block.custom.CookingPotBlock;
 import net.notcherry.dungeonmod.block.custom.CustomRedstoneLightBlock;
 import net.notcherry.dungeonmod.block.custom.ModPortalBlock;
+import net.notcherry.dungeonmod.block.custom.PortalBlock;
+import net.notcherry.dungeonmod.block.custom.portal.*;
 import net.notcherry.dungeonmod.item.ModItems;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
@@ -17,6 +19,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.notcherry.dungeonmod.item.ModItems;
 
+import java.awt.*;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -32,6 +35,27 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> COOKING_POT = registerBlock("cooking_pot",
             () -> new CookingPotBlock(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.METAL).noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_1 = registerBlock("portal_1",
+            () -> new Portal1Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noCollission().noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_2 = registerBlock("portal_2",
+            () -> new Portal2Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noCollission().noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_3 = registerBlock("portal_3",
+            () -> new Portal3Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_4 = registerBlock("portal_4",
+            () -> new Portal4Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_5 = registerBlock("portal_5",
+            () -> new Portal5Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_6 = registerBlock("portal_6",
+            () -> new Portal6Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noOcclusion()));
+
+    public static final RegistryObject<Block> PORTAL_7 = registerBlock("portal_7",
+            () -> new Portal7Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.SCULK_SENSOR).noLootTable().noOcclusion()));
 
     public static final RegistryObject<Block> DUNGEON_STONE = registerBlock("dungeon_stone",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.REINFORCED_DEEPSLATE).sound(SoundType.DEEPSLATE)));
