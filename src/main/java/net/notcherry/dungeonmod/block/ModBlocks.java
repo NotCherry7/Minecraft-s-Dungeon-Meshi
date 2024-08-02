@@ -1,14 +1,11 @@
 package net.notcherry.dungeonmod.block;
 
-import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.notcherry.dungeonmod.DungeonMod;
 import net.notcherry.dungeonmod.block.custom.CookingPotBlock;
 import net.notcherry.dungeonmod.block.custom.CustomRedstoneLightBlock;
 import net.notcherry.dungeonmod.block.custom.ModPortalBlock;
-import net.notcherry.dungeonmod.block.custom.PortalBlock;
 import net.notcherry.dungeonmod.block.custom.portal.*;
 import net.notcherry.dungeonmod.item.ModItems;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -17,9 +14,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.notcherry.dungeonmod.item.ModItems;
 
-import java.awt.*;
 import java.util.function.Supplier;
 
 public class ModBlocks {

@@ -15,7 +15,7 @@ import java.awt.*;
 public class Portal1BlockEntity extends BlockEntity {
 
     public Portal1BlockEntity(BlockPos pPos, BlockState pBlockState) {
-        super(ModBlockEntities.PORTAL_BLOCK_BE.get(), pPos, pBlockState);
+        super(ModBlockEntities.PORTAL_1_BE.get(), pPos, pBlockState);
     }
 
     @Override

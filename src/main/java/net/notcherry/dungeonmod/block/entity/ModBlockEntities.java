@@ -17,7 +17,6 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("cooking_pot_be", () ->
                     BlockEntityType.Builder.of(CookingPotBlockEntity::new, ModBlocks.COOKING_POT.get()).build(null));
 
-    public static final RegistryObject<BlockEntityType<PortalBlockEntity>> PORTAL_BLOCK_BE = BLOCK_ENTITIES.register("portal_block_be", () -> BlockEntityType.Builder.of(PortalBlockEntity::new, ModBlocks.PORTAL_1.get()).build(null));
     public static final RegistryObject<BlockEntityType<Portal1BlockEntity>> PORTAL_1_BE = BLOCK_ENTITIES.register("portal_1_be", () -> BlockEntityType.Builder.of(Portal1BlockEntity::new, ModBlocks.PORTAL_1.get()).build(null));
     public static final RegistryObject<BlockEntityType<Portal2BlockEntity>> PORTAL_2_BE = BLOCK_ENTITIES.register("portal_2_be", () -> BlockEntityType.Builder.of(Portal2BlockEntity::new, ModBlocks.PORTAL_2.get()).build(null));
     public static final RegistryObject<BlockEntityType<Portal3BlockEntity>> PORTAL_3_BE = BLOCK_ENTITIES.register("portal_3_be", () -> BlockEntityType.Builder.of(Portal3BlockEntity::new, ModBlocks.PORTAL_3.get()).build(null));

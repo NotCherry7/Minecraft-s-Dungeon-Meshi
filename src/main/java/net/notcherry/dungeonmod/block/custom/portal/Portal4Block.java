@@ -20,7 +20,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.notcherry.dungeonmod.block.entity.ModBlockEntities;
-import net.notcherry.dungeonmod.block.entity.PortalBlockEntity;
+import net.notcherry.dungeonmod.block.entity.portal.Portal4BlockEntity;
 import net.notcherry.dungeonmod.worldgen.dimension.ModDimensions;
 import net.notcherry.dungeonmod.worldgen.portal.ModTeleporter;
 import org.jetbrains.annotations.Nullable;
@@ -84,7 +84,7 @@ public class Portal4Block extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-        return new PortalBlockEntity(pPos, pState);
+        return new Portal4BlockEntity(pPos, pState);
     }
 
     @Nullable

@@ -5,7 +5,6 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -21,12 +20,10 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.notcherry.dungeonmod.block.entity.ModBlockEntities;
-import net.notcherry.dungeonmod.block.entity.PortalBlockEntity;
+import net.notcherry.dungeonmod.block.entity.portal.Portal2BlockEntity;
 import net.notcherry.dungeonmod.worldgen.dimension.ModDimensions;
 import net.notcherry.dungeonmod.worldgen.portal.ModTeleporter;
 import org.jetbrains.annotations.Nullable;
-
-import java.awt.*;
 
 public class Portal2Block extends BaseEntityBlock {
     public static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 16, 16);
@@ -87,7 +84,7 @@ public class Portal2Block extends BaseEntityBlock {
     @Nullable
     @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-        return new PortalBlockEntity(pPos, pState);
+        return new Portal2BlockEntity(pPos, pState);
     }
 
     @Nullable

@@ -16,7 +16,6 @@ import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal4BlockEntityR
 import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal5BlockEntityRenderer;
 import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal6BlockEntityRenderer;
 import net.notcherry.dungeonmod.block.entity.renderer.portal.Portal7BlockEntityRenderer;
-import net.notcherry.dungeonmod.block.entity.renderer.PortalBlockEntityRenderer;
 import net.notcherry.dungeonmod.client.ManaHudOverlay;
 import net.notcherry.dungeonmod.client.overlays.SpellWheelOverlay;
 import net.notcherry.dungeonmod.entity.client.*;
@@ -44,7 +43,6 @@ public class ModEventBusClientEvents {
     @SubscribeEvent
     public static void registerBER(EntityRenderersEvent.RegisterRenderers event) {
         event.registerBlockEntityRenderer(ModBlockEntities.COOKING_POT_BE.get(), CookingPotBlockEntityRenderer::new);
-        event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_BLOCK_BE.get(), PortalBlockEntityRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_1_BE.get(), Portal1BlockEntityRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_2_BE.get(), Portal2BlockEntityRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.PORTAL_3_BE.get(), Portal3BlockEntityRenderer::new);
