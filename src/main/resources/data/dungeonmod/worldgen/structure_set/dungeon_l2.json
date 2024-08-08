@@ -1,0 +1,19 @@
+{
+
+  "structures": [
+    {
+      "structure": "dungeonmod:dungeon_l2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "salt": 4464523447,
+
+    "spacing": 12,
+
+    "separation": 11,
+
+    "type": "minecraft:random_spread"
+  }
+}

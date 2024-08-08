@@ -56,7 +56,7 @@ public class ModTeleporter implements ITeleporter {
         }
 
 //        entity.teleportTo(destinationPos.getX() + 0.5, destinationPos.getY() + 0.5, destinationPos.getZ() + 0.5);
-        entity.teleportTo(-8, 22, 8);
+        entity.teleportTo(-8, 112, 8);
 
         return entity;
     }

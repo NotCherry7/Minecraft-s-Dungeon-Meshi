@@ -41,12 +41,12 @@ public class Portal7Block extends BaseEntityBlock {
     private void handleDungeonPortal(Entity player, BlockPos pPos) {
         if (player.level() instanceof ServerLevel serverlevel) {
             MinecraftServer minecraftserver = serverlevel.getServer();
-            ResourceKey<Level> resourcekey = player.level().dimension() == ModDimensions.DUNGEONWORLD_LEVEL_KEY ?
-                    Level.OVERWORLD : ModDimensions.DUNGEONWORLD_LEVEL_KEY;
+            ResourceKey<Level> resourcekey = player.level().dimension() == ModDimensions.DUNGEON7_LEVEL_KEY ?
+                    Level.OVERWORLD : ModDimensions.DUNGEON7_LEVEL_KEY;
 
             ServerLevel portalDimension = minecraftserver.getLevel(resourcekey);
             if (portalDimension != null && !player.isPassenger()) {
-                if(resourcekey == ModDimensions.DUNGEONWORLD_LEVEL_KEY) {
+                if(resourcekey == ModDimensions.DUNGEON7_LEVEL_KEY) {
                     player.changeDimension(portalDimension, new ModTeleporter(pPos, true));
                 } else {
                     player.changeDimension(portalDimension, new ModTeleporter(pPos, false));

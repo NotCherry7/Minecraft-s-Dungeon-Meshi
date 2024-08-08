@@ -1,4 +1,4 @@
-package net.notcherry.dungeonmod;
+package net.notcherry.dungeonmod.client;
 
 import com.mojang.blaze3d.vertex.DefaultVertexFormat;
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -20,6 +20,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.common.ForgeConfigSpec;
+import net.notcherry.dungeonmod.DungeonMod;
 import net.notcherry.dungeonmod.block.ModBlocks;
 import org.joml.Matrix3f;
 import org.joml.Matrix4f;

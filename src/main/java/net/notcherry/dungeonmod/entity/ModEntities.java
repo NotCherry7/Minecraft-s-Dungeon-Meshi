@@ -1,16 +1,13 @@
 package net.notcherry.dungeonmod.entity;
 
 import net.notcherry.dungeonmod.DungeonMod;
-import net.notcherry.dungeonmod.entity.custom.GolemEntity;
-import net.notcherry.dungeonmod.entity.custom.HugeScorpionEntity;
-import net.notcherry.dungeonmod.entity.custom.MandrakeEntity;
+import net.notcherry.dungeonmod.entity.custom.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import net.notcherry.dungeonmod.entity.custom.WalkingMushroomEntity;
 
 public class ModEntities {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
@@ -31,6 +28,10 @@ public class ModEntities {
     public static final RegistryObject<EntityType<GolemEntity>> GOLEM =
             ENTITY_TYPES.register("golem", () -> EntityType.Builder.of(GolemEntity::new, MobCategory.MONSTER)
                     .sized(1.3f, 3f).build("golem"));
+
+    public static final RegistryObject<EntityType<LightOrbSpell>> LIGHT_ORB_SPELL =
+            ENTITY_TYPES.register("light_orb", () -> EntityType.Builder.of(LightOrbSpell::new, MobCategory.AMBIENT)
+                    .sized(0.3f, 0.3f).build("light_orb"));
 
 
     public static void register(IEventBus eventBus) {

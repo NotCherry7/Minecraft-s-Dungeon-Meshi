@@ -5,13 +5,11 @@ import com.mojang.blaze3d.vertex.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.Screen;
-import net.minecraft.client.renderer.GameRenderer;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.notcherry.dungeonmod.DungeonMod;
-import net.notcherry.dungeonmod.item.custom.WoodenWandItem;
+import net.notcherry.dungeonmod.item.custom.tools.WoodenWandItem;
 
 public class RadialMenuScreen extends Screen {
     private static final ResourceLocation TEXTURE = new ResourceLocation(DungeonMod.MOD_ID,
@@ -141,11 +139,6 @@ public class RadialMenuScreen extends Screen {
 
             int selectedSpellIndex = (int) (angle / angleStep);
             String selectedSpell = "spell_" + selectedSpellIndex;
-
-            ItemStack heldItem = Minecraft.getInstance().player.getMainHandItem();
-            if (heldItem.getItem() instanceof WoodenWandItem) {
-                ((WoodenWandItem) heldItem.getItem()).setSelectedSpell(selectedSpell);
-            }
 
             Minecraft.getInstance().setScreen(null);
         }

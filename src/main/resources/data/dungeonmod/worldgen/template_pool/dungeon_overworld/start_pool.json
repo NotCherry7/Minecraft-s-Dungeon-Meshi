@@ -1,0 +1,22 @@
+{
+  "name": "dungeonmod:dungeon_overworld/start_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+
+        "location": "dungeonmod:dungeon_overworld",
+
+        "processors": "minecraft:empty",
+
+        // If set to 'terrain_matching', the dungeon would be deformed to fit the change in land.
+        "projection": "rigid",
+
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

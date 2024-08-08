@@ -16,4 +16,7 @@ public class ModModelLayers {
 
     public static final ModelLayerLocation GOLEM_LAYER = new ModelLayerLocation(
             new ResourceLocation(DungeonMod.MOD_ID, "golem_layer"), "main");
+
+    public static final ModelLayerLocation LIGHTORB_LAYER = new ModelLayerLocation(
+            new ResourceLocation(DungeonMod.MOD_ID, "light_orb_layer"), "main");
 }

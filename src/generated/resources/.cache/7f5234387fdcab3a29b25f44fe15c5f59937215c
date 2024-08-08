@@ -1,5 +1,6 @@
-// 1.20.1	2024-07-16T19:06:10.3185807	Tags for minecraft:block mod id dungeonmod
+// 1.20.1	2024-08-04T14:19:08.8036257	Tags for minecraft:block mod id dungeonmod
 774a304436e485bddf62c4a0865b41a13f12c51c data/dungeonmod/tags/blocks/needs_huge_scorpion_claw.json
+564cda908457fb2fc466b0a70b59033510993283 data/minecraft/tags/blocks/climbable.json
 e06369985ec8e9e9910426d91733f24d731d2ad5 data/minecraft/tags/blocks/mineable/pickaxe.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_diamond_tool.json
 e4ff9588b9413dd6ebe0c922c81c0637c75bf808 data/minecraft/tags/blocks/walls.json

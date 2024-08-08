@@ -38,6 +38,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.HUGE_SCORPION_LEG.get());
     // GOLEM
                         pOutput.accept(ModItems.GOLEM_SPAWN_EGG.get());
+    // SPELLS
+                        pOutput.accept(ModItems.LIGHT_ORB_SPAWN_EGG.get());
 
 // BLOCKS
                         pOutput.accept(ModBlocks.COOKING_POT.get());

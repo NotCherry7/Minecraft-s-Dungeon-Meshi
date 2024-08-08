@@ -10,6 +10,7 @@ import net.minecraftforge.client.model.generators.BlockStateProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import net.notcherry.dungeonmod.DungeonMod;
+import net.minecraftforge.client.model.generators.*;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -45,6 +46,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockItem(ModBlocks.DUNGEON_STONE);
         blockWithItem(ModBlocks.MOD_PORTAL);
+
+
 
 //        buttonBlock(((ButtonBlock) ModBlocks.MOONPEARL_BUTTON.get()), blockTexture(ModBlocks.MOONPEARL_BLOCK.get()));
 //        pressurePlateBlock(((PressurePlateBlock) ModBlocks.MOONPEARL_PRESSURE_PLATE.get()), blockTexture(ModBlocks.MOONPEARL_BLOCK.get()));

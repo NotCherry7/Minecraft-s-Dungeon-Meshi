@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "dungeonmod:block/dungeon_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dungeonmod:block/dungeon_ladder"
+    },
+    "facing=south": {
+      "model": "dungeonmod:block/dungeon_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dungeonmod:block/dungeon_ladder",
+      "y": 270
+    }
+  }
+}

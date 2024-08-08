@@ -10,7 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.notcherry.dungeonmod.DungeonMod;
 import net.notcherry.dungeonmod.item.custom.ModFoods;
 import net.notcherry.dungeonmod.entity.ModEntities;
-import net.notcherry.dungeonmod.item.custom.WoodenWandItem;
+import net.notcherry.dungeonmod.item.custom.tools.WoodenWandItem;
 import net.notcherry.dungeonmod.item.custom.tools.EffectSwordItem;
 import net.notcherry.dungeonmod.item.custom.tools.PAXALItem;
 
@@ -70,9 +70,13 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.GOLEM, 0x3C1414, 0xA52A2A,
                     new Item.Properties()));
 
+    public static final RegistryObject<Item> LIGHT_ORB_SPAWN_EGG = ITEMS.register("light_orb_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.LIGHT_ORB_SPELL, 0xB1EAEE, 0xF4FEFF,
+                    new Item.Properties()));
+
 
     public static final RegistryObject<Item> WOODEN_WAND = ITEMS.register("wooden_wand",
-            () -> new WoodenWandItem(new Item.Properties().stacksTo(16)));
+            () -> new WoodenWandItem(new Item.Properties().stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

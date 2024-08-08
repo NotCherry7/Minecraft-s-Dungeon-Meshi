@@ -1,0 +1,6 @@
+{
+  "parent": "dungeonmod:item/wooden_wand",
+  "textures": {
+    "layer0": "dungeonmod:item/wooden_wand_light"
+  }
+}

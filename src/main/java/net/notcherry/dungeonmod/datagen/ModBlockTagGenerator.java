@@ -28,6 +28,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 //        this.tag(BlockTags.NEEDS_IRON_TOOL)
 //                .add(ModBlocks.MOONPEARL_BLOCK.get());
 
+        this.tag(BlockTags.CLIMBABLE)
+                .add(ModBlocks.DUNGEON_LADDER.get());
+
         this.tag(BlockTags.NEEDS_DIAMOND_TOOL);
 //                .add(ModBlocks.MOONPEARL_ORE.get();
 

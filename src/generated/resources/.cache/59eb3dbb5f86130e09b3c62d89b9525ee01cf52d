@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-16T18:19:44.8387588	Loot Tables
+// 1.20.1	2024-08-02T18:11:46.4877457	Loot Tables
 add5739317724fe7660eb06e47faca1bb04aba7a data/dungeonmod/loot_tables/blocks/chiseled_dungeon_stone.json
 87fbf97715b161aa8e5cdd88a67c56098e75bcc2 data/dungeonmod/loot_tables/blocks/cobbled_dungeon_stone.json
 d2683b895462f0f7fbb21dd3c35ffa34a69ad782 data/dungeonmod/loot_tables/blocks/cobbled_dungeon_stone_slab.json
@@ -7,6 +7,7 @@ d2683b895462f0f7fbb21dd3c35ffa34a69ad782 data/dungeonmod/loot_tables/blocks/cobb
 5f7c704f9b5bc3564feca1e9a92804e3669ff6e1 data/dungeonmod/loot_tables/blocks/cooking_pot.json
 a3a14aa8bb0b6f315cbf1e745c3c16787d5d8ae3 data/dungeonmod/loot_tables/blocks/cracked_dungeon_stone_bricks.json
 0011b2fa88448f6713f851aebc48831586c16251 data/dungeonmod/loot_tables/blocks/cracked_dungeon_stone_tiles.json
+13c663a5d43593943bf891d27fda1c069959d639 data/dungeonmod/loot_tables/blocks/dungeon_ladder.json
 f1c2ff9e5fbd7e5175ebae43fecf07458af593b4 data/dungeonmod/loot_tables/blocks/dungeon_stone.json
 7efa4ee754bb8741dc9fa3967261324b0f8a4d1b data/dungeonmod/loot_tables/blocks/dungeon_stone_bricks.json
 cb838ac93e69936795c9d6129621c86b7a645774 data/dungeonmod/loot_tables/blocks/dungeon_stone_brick_slab.json

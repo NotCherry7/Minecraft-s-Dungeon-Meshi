@@ -1,5 +1,5 @@
 {
-  "type": "dungeonmod:dungeonworld_type",
+  "type": "dungeonmod:dungeon1_type",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {

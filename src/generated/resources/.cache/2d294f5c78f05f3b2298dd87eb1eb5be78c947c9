@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-23T18:50:43.5180356	Item Models: dungeonmod
+// 1.20.1	2024-08-05T12:34:44.3007903	Item Models: dungeonmod
 964e0033416e353d76ef081c53f83a881eded281 assets/dungeonmod/models/item/cobbled_dungeon_stone_slab.json
 b3894388faf50ebe0bc42915bee5eb4706918b78 assets/dungeonmod/models/item/cobbled_dungeon_stone_stairs.json
 405b90065025843a9af5c00c6598d7d1d7723c2d assets/dungeonmod/models/item/cobbled_dungeon_stone_wall.json
@@ -17,6 +17,7 @@ d3b221aaa5c3e980416fd122dcb5239ba0556d4e assets/dungeonmod/models/item/dungeon_s
 85a25aab4c957b1fe8a1b3f366864126fd406c27 assets/dungeonmod/models/item/huge_scorpion_leg.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/dungeonmod/models/item/huge_scorpion_spawn_egg.json
 b1491daee2945658b84554ca6cf147ea0494a04b assets/dungeonmod/models/item/huge_scorpion_tail.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/dungeonmod/models/item/light_orb_spawn_egg.json
 b34d177571a0259b30907eef5be6e77f74664ed6 assets/dungeonmod/models/item/mandrake.json
 d607ca4f889eedacc8c71d72113d50c91eabb772 assets/dungeonmod/models/item/mandrake_head.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/dungeonmod/models/item/mandrake_spawn_egg.json

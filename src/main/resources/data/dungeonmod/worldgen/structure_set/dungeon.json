@@ -18,7 +18,7 @@
     // MUST ALWAYS BE SMALLER THAN spacing ABOVE
     "separation": 0,
 
-    // The kind of placement to use. The other kind is ring based like strongholds use.
+    // The kind of placement to use. The other kind is concentric_rings based like strongholds use.
     "type": "minecraft:random_spread"
   }
 }

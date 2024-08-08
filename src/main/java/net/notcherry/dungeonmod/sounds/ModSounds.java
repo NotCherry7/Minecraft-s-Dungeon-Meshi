@@ -1,5 +1,6 @@
 package net.notcherry.dungeonmod.sounds;
 
+import net.minecraft.sounds.Music;
 import net.notcherry.dungeonmod.DungeonMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
@@ -18,6 +19,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> MANDRAKE_DEATH = registerSoundEvents("mandrake_death");
 
     public static final RegistryObject<SoundEvent> WALKING_MUSHROOM_SQUISH = registerSoundEvents("walking_mushroom_squish");
+    public static final RegistryObject<SoundEvent> HEAVENLY_SOUNDS = registerSoundEvents("heavenly_sounds");
 
 //    public static final RegistryObject<SoundEvent> HAPPINESS_DOES_NOT_WAIT = registerSoundEvents("happiness_does_not_wait");
 //

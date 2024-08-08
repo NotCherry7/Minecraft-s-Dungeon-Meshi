@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "dungeonmod:item/wooden_wand"
+  },
+  "overrides": [
+    {"predicate": {"minecraft:spell": 0}, "model": "dungeonmod:item/wooden_wand_none"},
+    {"predicate": {"minecraft:spell": 1}, "model": "dungeonmod:item/wooden_wand_explosion"},
+    {"predicate": {"minecraft:spell": 2}, "model": "dungeonmod:item/wooden_wand_light"},
+    {"predicate": {"minecraft:spell": 3}, "model": "dungeonmod:item/wooden_wand_heal"},
+    {"predicate": {"minecraft:spell": 4}, "model": "dungeonmod:item/wooden_wand_water_walking"}
+  ]
+}

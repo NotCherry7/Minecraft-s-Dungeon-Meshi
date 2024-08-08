@@ -12,10 +12,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.notcherry.dungeonmod.DungeonMod;
 import net.notcherry.dungeonmod.entity.ModEntities;
-import net.notcherry.dungeonmod.entity.custom.GolemEntity;
-import net.notcherry.dungeonmod.entity.custom.HugeScorpionEntity;
-import net.notcherry.dungeonmod.entity.custom.MandrakeEntity;
-import net.notcherry.dungeonmod.entity.custom.WalkingMushroomEntity;
+import net.notcherry.dungeonmod.entity.custom.*;
 
 @Mod.EventBusSubscriber(modid = DungeonMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBusEvents {
@@ -25,5 +22,6 @@ public class ModEventBusEvents {
         event.put(ModEntities.WALKING_MUSHROOM.get(), WalkingMushroomEntity.createAttributes().build());
         event.put(ModEntities.HUGE_SCORPION.get(), HugeScorpionEntity.createAttributes().build());
         event.put(ModEntities.GOLEM.get(), GolemEntity.createAttributes().build());
+        event.put(ModEntities.LIGHT_ORB_SPELL.get(), LightOrbSpell.createAttributes().build());
     }
 }

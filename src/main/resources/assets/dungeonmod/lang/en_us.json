@@ -14,6 +14,8 @@
   "item.dungeonmod.walking_mushroom_foot": "Walking Mushroom Foot",
   "item.dungeonmod.walking_mushroom_chunk": "Walking Mushroom Chunk",
 
+  "item.dungeonmod.wooden_wand": "Wooden Wand",
+
   "item.dungeonmod.huge_scorpion_head": "Huge Scorpion Head",
   "item.dungeonmod.huge_scorpion_body": "Huge Scorpion Body",
   "item.dungeonmod.huge_scorpion_claw": "Huge Scorpion Claw",
@@ -49,6 +51,8 @@
   "block.dungeonmod.portal_6": "Portal 6",
   "block.dungeonmod.portal_7": "Portal 7",
 
+  "block.dungeonmod.dungeon_ladder": "Dungeon Ladder",
+
   "block.dungeonmod.dungeon_stone": "Dungeon Stone",
   "block.dungeonmod.cobbled_dungeon_stone": "Cobbled Dungeon Stone",
   "block.dungeonmod.dungeon_stone_tiles": "Dungeon Stone Tiles",
@@ -73,8 +77,8 @@
   "death.attack.mandrake": "%1$s was overwhelmed by a Mandrake's scream",
   "death.attack.mandrake.player": "%1$s was overwhelmed by a Mandrake's scream while fighting %2$s",
 
-  "death.attack.huge_scorpion.player": "%1$s was clawed to death while fighting %2$s",
-  "death.attack.huge_scorpion": "%1$s was clawed to death",
+  "death.attack.huge_scorpion.player": "%1$s was stung to death while fighting %2$s",
+  "death.attack.huge_scorpion": "%1$s was stung to death",
 
   "creativetab.dungeon_tab": "Dungeon Mod Items",
 
@@ -82,5 +86,5 @@
   "key.dungeonmod.consume_mana": "Consume Mana",
 
   "message.dungeonmod.consume_mana": "Drinking Water",
-  "message.dungeonmod.no_mana": "No mana"
+  "message.dungeonmod.no_mana": "No water"
 }

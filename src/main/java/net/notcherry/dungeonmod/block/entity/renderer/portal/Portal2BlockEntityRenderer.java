@@ -4,7 +4,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
-import net.notcherry.dungeonmod.LightBeamRenderer;
+import net.notcherry.dungeonmod.client.LightBeamRenderer;
 import net.notcherry.dungeonmod.block.entity.portal.Portal2BlockEntity;
 
 import java.awt.*;

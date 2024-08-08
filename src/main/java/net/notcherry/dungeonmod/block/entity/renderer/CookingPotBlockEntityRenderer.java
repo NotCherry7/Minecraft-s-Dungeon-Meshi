@@ -1,32 +1,20 @@
 package net.notcherry.dungeonmod.block.entity.renderer;
 
-import com.mojang.blaze3d.vertex.DefaultVertexFormat;
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.mojang.blaze3d.vertex.VertexFormat;
 import com.mojang.math.Axis;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.client.renderer.MultiBufferSource;
-import net.minecraft.client.renderer.RenderStateShard;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.client.renderer.entity.ItemRenderer;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.core.BlockPos;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LightLayer;
-import net.notcherry.dungeonmod.DungeonMod;
-import net.notcherry.dungeonmod.LightBeamRenderer;
 import net.notcherry.dungeonmod.block.entity.CookingPotBlockEntity;
-import org.joml.Matrix3f;
-import org.joml.Matrix4f;
-
-import java.awt.*;
 
 public class CookingPotBlockEntityRenderer implements BlockEntityRenderer<CookingPotBlockEntity> {
     private float rotation;

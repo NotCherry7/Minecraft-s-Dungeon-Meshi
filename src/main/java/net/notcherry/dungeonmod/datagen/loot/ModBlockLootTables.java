@@ -26,6 +26,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 //        this.dropSelf(ModBlocks.BUTTERCUP.get());
 //        this.add(ModBlocks.POTTED_BUTTERCUP.get(), createPotFlowerItemTable(ModBlocks.BUTTERCUP.get()));
 
+        this.dropSelf(ModBlocks.DUNGEON_LADDER.get());
         this.dropSelf(ModBlocks.COOKING_POT.get());
         this.dropSelf(ModBlocks.DUNGEON_STONE.get());
         this.dropSelf(ModBlocks.COBBLED_DUNGEON_STONE.get());

@@ -1,42 +1,23 @@
 package net.notcherry.dungeonmod.event;
 
-import com.mojang.blaze3d.vertex.PoseStack;
-import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.npc.VillagerProfession;
-import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.trading.MerchantOffer;
-import net.minecraftforge.client.event.RenderLevelStageEvent;
-import net.minecraftforge.client.event.RenderNameTagEvent;
 import net.minecraftforge.common.capabilities.RegisterCapabilitiesEvent;
 import net.minecraftforge.event.AttachCapabilitiesEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
-import net.minecraftforge.event.village.VillagerTradesEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.LogicalSide;
 import net.minecraftforge.fml.common.Mod;
 import net.notcherry.dungeonmod.DungeonMod;
-import net.notcherry.dungeonmod.LightBeamRenderer;
-import net.notcherry.dungeonmod.effect.ModEffects;
-import net.notcherry.dungeonmod.item.ModItems;
 import net.notcherry.dungeonmod.mana.PlayerMana;
 import net.notcherry.dungeonmod.mana.PlayerManaProvider;
 import net.notcherry.dungeonmod.networking.ModMessages;
 import net.notcherry.dungeonmod.networking.packet.ManaDataSyncS2CPacket;
-
-import java.util.List;
 
 @Mod.EventBusSubscriber(modid = DungeonMod.MOD_ID)
 public class ModEvents {
@@ -93,8 +74,8 @@ public class ModEvents {
         Player pPlayer = Minecraft.getInstance().player;
         if(event.side == LogicalSide.SERVER) {
             event.player.getCapability(PlayerManaProvider.PLAYER_MANA).ifPresent(mana -> {
-                if(mana.getMana() > 0 && event.player.getRandom().nextFloat() < 0.005f) { // Once Every 10 Seconds on Avg
-                    mana.subMana(1);
+                if(mana.getMana() < 100 && event.player.getRandom().nextFloat() < 0.005f) { // Once Every 10 Seconds on Avg
+                    mana.addMana(1);
 //                    pPlayer.playSound(SoundEvents.GLASS_BREAK, 1.0F, 1.0F);
                     ModMessages.sendToPlayer(new ManaDataSyncS2CPacket(mana.getMana()), ((ServerPlayer) event.player));
                 }

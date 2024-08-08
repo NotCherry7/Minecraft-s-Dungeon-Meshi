@@ -11,5 +11,13 @@
     "sounds": [
       "dungeonmod:walking_mushroom/walking_mushroom_squish"
     ]
+  },
+  "heavenly_sounds": {
+    "sounds": [
+      {
+        "name": "dungeonmod:floors/heavenly_sounds",
+        "stream": true
+      }
+    ]
   }
 }

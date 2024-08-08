@@ -3,6 +3,8 @@ package net.notcherry.dungeonmod;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.entity.EntityRenderers;
+import net.minecraft.client.renderer.item.ItemProperties;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,9 +26,11 @@ import net.notcherry.dungeonmod.entity.ModEntities;
 import net.notcherry.dungeonmod.entity.client.golem.GolemRenderer;
 import net.notcherry.dungeonmod.entity.client.huge_scorpion.HugeScorpionRenderer;
 import net.notcherry.dungeonmod.entity.client.mandrake.MandrakeRenderer;
+import net.notcherry.dungeonmod.entity.client.spells.LightOrbRenderer;
 import net.notcherry.dungeonmod.entity.client.walking_mushroom.WalkingMushroomRenderer;
 import net.notcherry.dungeonmod.item.ModCreativeModTabs;
 import net.notcherry.dungeonmod.item.ModItems;
+import net.notcherry.dungeonmod.item.custom.SpellType;
 import net.notcherry.dungeonmod.loot.ModLootModifiers;
 import net.notcherry.dungeonmod.networking.ModMessages;
 import net.notcherry.dungeonmod.potion.ModPotions;
@@ -34,6 +38,7 @@ import net.notcherry.dungeonmod.recipe.ModRecipes;
 import net.notcherry.dungeonmod.screen.CookingPotScreen;
 import net.notcherry.dungeonmod.screen.ModMenuTypes;
 import net.notcherry.dungeonmod.sounds.ModSounds;
+import net.notcherry.dungeonmod.util.ModItemProperties;
 import net.notcherry.dungeonmod.worldgen.biome.ModTerrablender;
 import net.notcherry.dungeonmod.worldgen.biome.surface.ModSurfaceRules;
 import org.slf4j.Logger;
@@ -113,7 +118,10 @@ public class DungeonMod {
             EntityRenderers.register(ModEntities.WALKING_MUSHROOM.get(), WalkingMushroomRenderer::new);
             EntityRenderers.register(ModEntities.HUGE_SCORPION.get(), HugeScorpionRenderer::new);
             EntityRenderers.register(ModEntities.GOLEM.get(), GolemRenderer::new);
+            EntityRenderers.register(ModEntities.LIGHT_ORB_SPELL.get(), LightOrbRenderer::new);
             MinecraftForge.EVENT_BUS.register(SpellWheelOverlay.instance);
+
+            ModItemProperties.addCustomItemProperties();
 
 
             MenuScreens.register(ModMenuTypes.COOKING_POT_MENU.get(), CookingPotScreen::new);

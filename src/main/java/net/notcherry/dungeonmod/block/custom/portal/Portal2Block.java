@@ -41,12 +41,12 @@ public class Portal2Block extends BaseEntityBlock {
     private void handleDungeonPortal(Entity player, BlockPos pPos) {
         if (player.level() instanceof ServerLevel serverlevel) {
             MinecraftServer minecraftserver = serverlevel.getServer();
-            ResourceKey<Level> resourcekey = player.level().dimension() == ModDimensions.DUNGEONWORLD_LEVEL_KEY ?
-                    Level.OVERWORLD : ModDimensions.DUNGEONWORLD_LEVEL_KEY;
+            ResourceKey<Level> resourcekey = player.level().dimension() == ModDimensions.DUNGEON2_LEVEL_KEY ?
+                    Level.OVERWORLD : ModDimensions.DUNGEON2_LEVEL_KEY;
 
             ServerLevel portalDimension = minecraftserver.getLevel(resourcekey);
             if (portalDimension != null && !player.isPassenger()) {
-                if(resourcekey == ModDimensions.DUNGEONWORLD_LEVEL_KEY) {
+                if(resourcekey == ModDimensions.DUNGEON2_LEVEL_KEY) {
                     player.changeDimension(portalDimension, new ModTeleporter(pPos, true));
                 } else {
                     player.changeDimension(portalDimension, new ModTeleporter(pPos, false));
@@ -59,7 +59,7 @@ public class Portal2Block extends BaseEntityBlock {
     public void tick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
         if (!pLevel.isClientSide) {
             if (pLevel.getGameTime() % 100 == 0) {
-                Player player = pLevel.getNearestPlayer(pPos.getX(), pPos.getY(), pPos.getZ(), 5, false);
+                Player player = pLevel.getNearestPlayer(pPos.getX(), pPos.getY(), pPos.getZ(), 5, true);
                 assert player != null;
                 player.playSound(SoundEvents.NOTE_BLOCK_HARP.get(), 1.0F, 1.0F);
             }

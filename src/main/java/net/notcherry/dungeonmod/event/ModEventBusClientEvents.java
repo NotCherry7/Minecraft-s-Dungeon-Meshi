@@ -22,6 +22,7 @@ import net.notcherry.dungeonmod.entity.client.*;
 import net.notcherry.dungeonmod.entity.client.golem.GolemModel;
 import net.notcherry.dungeonmod.entity.client.huge_scorpion.HugeScorpionModel;
 import net.notcherry.dungeonmod.entity.client.mandrake.MandrakeModel;
+import net.notcherry.dungeonmod.entity.client.spells.LightOrbModel;
 import net.notcherry.dungeonmod.entity.client.walking_mushroom.WalkingMushroomModel;
 import net.notcherry.dungeonmod.networking.ModMessages;
 import net.notcherry.dungeonmod.networking.packet.ConsumeManaC2SPacket;
@@ -38,6 +39,7 @@ public class ModEventBusClientEvents {
         event.registerLayerDefinition(ModModelLayers.WALKINGMUSHROOM_LAYER, WalkingMushroomModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.HUGESCORPION_LAYER, HugeScorpionModel::createBodyLayer);
         event.registerLayerDefinition(ModModelLayers.GOLEM_LAYER, GolemModel::createBodyLayer);
+        event.registerLayerDefinition(ModModelLayers.LIGHTORB_LAYER, LightOrbModel::createBodyLayer);
     }
 
     @SubscribeEvent
